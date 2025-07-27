@@ -1,0 +1,24 @@
+@font-face {
+    font-family: renogare;
+    src: url(Assets/renogare.ttf);
+}
+
+
+.flexr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    font-family: renogare;
+}
