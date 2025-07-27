@@ -1,7 +1,7 @@
 const request = new XMLHttpRequest();
 
 try {
-    request.open("GET", "https://smots.horse/thesilly");
+    request.open("GET", "https://meow.smots.horse:6666/thesilly");
 
 
     request.addEventListener("load", () => {
