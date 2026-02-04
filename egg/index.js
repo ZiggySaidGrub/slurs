@@ -21,6 +21,10 @@ if (localStorage.getItem("cracked") === null) {
     egg.style.opacity = 1;
 } else {
     egg.remove();
+    document.getElementById('scarab').remove();
+    let vee = document.getElementById("vee");
+    vee.style.opacity = 1;
+    document.querySelectorAll("script").forEach((e)=>{e.remove()});
 }
 
 let vee = document.getElementById("vee");
